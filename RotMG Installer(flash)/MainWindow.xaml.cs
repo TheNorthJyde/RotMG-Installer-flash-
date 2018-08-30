@@ -56,6 +56,20 @@ namespace RotMG_Installer_flash_
             {
                 fileItems.Items[fileItems.Items.Count - 1] += " ✔";
             }
+
+            fileItems.Items.Add("RotMG launcher");
+            if (!File.Exists(@"C:\Users\" + Environment.UserName + @"\\Desktop\RotMG.exe"))
+            {
+                using (var client = new WebClient())
+                {
+                    await client.DownloadFileTaskAsync(new Uri("https://github.com/TheNorthJyde/RotMG-Installer-flash-/raw/master/RotMG.exe"), @"C:\Users\" + Environment.UserName + @"\\Desktop\RotMG.exe");
+                }
+                fileItems.Items[fileItems.Items.Count - 1] += " ✔";
+            }
+            else
+            {
+                fileItems.Items[fileItems.Items.Count - 1] += " ✔";
+            }
         }
 
         
