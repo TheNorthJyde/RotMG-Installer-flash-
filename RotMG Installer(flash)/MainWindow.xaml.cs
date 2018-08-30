@@ -70,6 +70,8 @@ namespace RotMG_Installer_flash_
             {
                 fileItems.Items[fileItems.Items.Count - 1] += " ✔";
             }
+
+            fileItems.Items.Add("Done");
         }
 
         
