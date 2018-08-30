@@ -45,7 +45,7 @@ namespace RotMG_Installer_flash_
                 
                 using (var client = new WebClient())
                 {
-                    await client.DownloadFileTaskAsync(new Uri("https://github.com/TheNorthJyde/RotMG-flash-installer/blob/master/flashplayer18_sa.exe?raw=true"), @"C:\Users\" + Environment.UserName + @"\Documents\Realmy\flashplayer18_sa.exe");
+                    await client.DownloadFileTaskAsync(new Uri("https://github.com/TheNorthJyde/RotMG-flash-installer/blob/master/flashplayer18_sa.exe?raw=true"), @"C:\Users\" + Environment.UserName + @"\Documents\Realm\flashplayer18_sa.exe");
                 }
 
                     
@@ -62,7 +62,7 @@ namespace RotMG_Installer_flash_
             {
                 using (var client = new WebClient())
                 {
-                    await client.DownloadFileTaskAsync(new Uri("https://github.com/TheNorthJyde/RotMG-Installer-flash-/raw/master/RotMG.exe"), @"C:\Users\" + Environment.UserName + @"\\Desktop\RotMG.exe");
+                    await client.DownloadFileTaskAsync(new Uri("https://github.com/TheNorthJyde/RotMG-Installer-flash-/raw/master/RotMG.exe"), @"C:\Users\" + Environment.UserName + @"\Desktop\RotMG.exe");
                 }
                 fileItems.Items[fileItems.Items.Count - 1] += " ✔";
             }
