@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotMG Installer(flash)", "RotMG Installer(flash)\RotMG Installer(flash).csproj", "{3DF7997D-AAF2-4682-9411-6FB7CB47F587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotMG", "RotMG\RotMG.csproj", "{CAAAB28A-89B4-4D2C-AB1F-8DE28FEF5131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF7997D-AAF2-4682-9411-6FB7CB47F587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF7997D-AAF2-4682-9411-6FB7CB47F587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF7997D-AAF2-4682-9411-6FB7CB47F587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF7997D-AAF2-4682-9411-6FB7CB47F587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAAB28A-89B4-4D2C-AB1F-8DE28FEF5131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAAB28A-89B4-4D2C-AB1F-8DE28FEF5131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAAB28A-89B4-4D2C-AB1F-8DE28FEF5131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAAB28A-89B4-4D2C-AB1F-8DE28FEF5131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8DCE6CA-76EB-47AE-9774-B82A43B38363}
+	EndGlobalSection
+EndGlobal
